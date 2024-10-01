@@ -1,0 +1,429 @@
+
+.mback{
+	background:#696969;
+	height:60px;
+	width:100%;
+	padding:15px;
+	color:white;
+	font-size:12px;
+	
+}
+
+.para{
+			
+	behavior:slide;
+	scrollamount:10;
+	loop:infinite;
+	direction:left;
+			
+}
+.header{
+	padding-right:10px;
+}
+.content{
+	font-weight:bold;
+	font-size:18px;
+			
+			
+}
+		
+.nav-link div
+{
+	height:3px;
+	width:0%;
+	left:100%;
+	background-color:red;
+	transition:all 0.5s;
+/*	transition-delay:1s;*/
+	position:absolute;
+
+}
+		
+.nav-link:hover div{
+			
+	height:3px;
+	width:100%;
+	left:0;
+	transition:width 0.5s;
+
+	background-color:red;
+
+			
+}
+		
+.nav-link{
+	position:relative;
+	overflow:hidden;
+}
+		
+.nav-link:hover{
+	color:red !important;
+}
+.main{
+	position:relative;
+			
+}
+
+.back2{
+			
+	background-image:url(popri_images/b3.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:80vh;
+	opacity:0.55;
+	
+	position:relative;
+}
+		
+.sub1{
+	background:white;
+			
+	padding-block:20px;
+	padding-inline:20px;
+			
+}
+		
+
+.p1:hover img{
+	transform:scale(1.05);
+		
+}
+		
+.sub2{
+	position:relative;
+	height:385px;
+}
+.image{
+	opacity:1;
+}
+.vid{
+	opacity:0;
+	object-fit:fill;
+}
+
+.sub2:hover .vid{
+	opacity:1;
+
+}
+.sub2:hover .image{
+	opacity:0;
+
+}
+.sub3{
+	height:430px;
+}
+
+.fav{
+	color:darkblue;
+	font-size:16px;
+			
+	position:absolute;
+	left:25%;
+	top:25%;
+	opacity:0;
+		
+}
+		
+.icon{
+	background:white;
+	border-radius:100%;
+	border:1px solid;
+	position:absolute;
+	height:35px;
+	width:35px;
+	top:85%;
+	left:85%;
+	opacity:0;
+	color:white;
+			
+}
+
+.sub2:hover .icon{
+	opacity:1;
+}
+		
+.icon:hover{
+			
+	background:darkblue;
+			
+}
+.icon:hover .fav{
+	opacity:1;
+	color:white !important;
+}
+		
+.sub2:hover .fav{
+	right:6%;
+	opacity:1;	
+}
+		
+
+	
+.c1{
+	margin-top:-10px;
+	height:170px;
+		
+}
+		
+.c1 del{ color:red;}
+		
+.circle{
+		
+	border:1px solid white;
+	height:30px;
+	width:30px;
+	border-radius:100%;
+	right:4%;
+	position:absolute;
+	top:85%;
+	transition:all;
+	opacity:0;
+	transition-duration:0.5s;
+}
+.sub2:hover .circle{
+	right:6%;
+	opacity:1;	
+			
+}
+.product{
+	display:flex;
+	justify-content:center;
+}
+.product button{
+	width:20%;
+	color:black;
+	font-weight:bold;
+	font-size:20px;
+
+}
+		
+.product button:hover{
+	color:white;
+	background:darkblue !important;
+}
+.back_img{
+	background-image:url(popri_images/last.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom;
+	width:100%;
+	height:60vh;
+	display:flex;
+			
+	justify-content:center;
+	align-items:center;
+
+}
+.quote{
+			
+	width:100%;
+	height:80%;
+			
+	text-align:center;
+	background:none;
+
+}
+.line{
+	font-size:24px;
+	font-family:helvetica;
+	color:white;
+	
+}
+.name1{
+	font-weight:bold;
+	font-size:24px;
+	
+	font-family:helvetica;
+	color:white;
+}
+.post{
+	font-size:18px;
+	font-family:helvetica;
+	color:white;
+	padding-bottom:10px;
+}
+.form_bg{
+	background-image:url(popri_images/form_bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	padding-top:40px;
+}
+.form_div{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.pdetail{
+	width:auto;
+	height:450px;
+}
+.form_p1{
+	font-size:20px;
+	font-family:helvetica;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+
+}
+.form_p2{
+	font-size:18px;
+	font-family:helvetica;
+	text-align:center;
+	color:white;
+	padding-bottom:30px;
+			
+
+}
+.submit:hover{
+	background:darkblue;
+	color:white;
+	border:none;
+
+}
+.footer1{
+	background:rgb(0, 0, 0, 0.85);
+}
+.footer2{
+	background:rgb(0, 0,0, 0.05);
+}
+.fpart1{
+	color:white;
+	font-size:14px;
+	font-family:helvetica;
+			
+}
+.fpart2{
+	color:white !important;
+	font-size:16px;
+	font-family:helvetica;
+			
+	line-height: 35px;
+			
+}
+.fpart2 a{
+	color:white;
+	text-decoration: none;
+}
+.inp{
+	opacity:60%;
+}
+.end{
+	color:white;
+	padding-top:10px;
+	text-align:center;
+}
+.des{
+	font-size:20px;
+	font-family:helvetica;
+	margin-top:10px;
+}
+.pn{
+	font-size:30px;
+	font-weight:bold;
+}
+.pp{
+	font-size:22px;
+}
+.ht{
+
+	display:inline-block;
+
+}
+.ht button{
+	margin-top:-5px;
+	
+}
+.top{
+	background:black;
+	position:absolute;
+	top:60px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:80vh;
+	width:100%;
+	opacity:0.7;
+
+	
+
+	
+
+}
+.t1,.t2{
+	text-transform:uppercase;
+}
+.cn{
+	color:white;
+	font-size:95px;
+	font-weight:bolder;
+	text-transform:uppercase;
+	width:100%;
+	
+
+}		
+@media(max-width: 576px)
+{
+	.sub2{
+		height:270px;
+	}
+	.sub3{
+		height:300px;
+	}
+			
+}
+@media(max-width: 576px)
+{
+	.c1{
+		height:150px;
+		padding-top:20px !important;
+		margin-top:-20px;
+
+	}
+	.t1{
+		font-size:16px;
+		font-weight:bold;
+	}
+	.t2{
+		font-size:14px;
+		font-weight:bold;
+	}
+}
+@media(min-width: 768px)
+{
+	.t1{
+		font-size:26px;
+		font-weight:bold;
+	}
+	.t2{
+		font-size:22px;
+		
+	}
+}
+@media(max-width: 576px)
+{
+	.product button{
+		width:45%;
+	}
+}
+@media(min-width: 768px) && (max-width: 1400px){
+	.nav-item{
+		font-size:36px;
+	}
+}
+@media(max-width: 576px)
+{
+	.nav-link{
+		color:white !important;
+	}
+}
+@media(max-width: 576px)
+{
+	.cn{
+		font-size:44px;
+	}
+
+}
